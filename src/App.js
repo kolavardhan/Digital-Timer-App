@@ -1,5 +1,7 @@
+import DigitalTimer from './components/DigitalTimer'
+
 function App() {
-  return <h1>Digital Timer</h1>
+  return <DigitalTimer/>
 }
 
 export default App;
