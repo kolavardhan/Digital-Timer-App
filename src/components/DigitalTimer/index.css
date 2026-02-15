@@ -1,0 +1,160 @@
+.digital-timer-bg {
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff, #cffcf1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dt-card {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dtc-title {
+    margin-top: 0;
+    color: #0f172a;
+    text-align: center;
+    font-size: 40px;
+}
+
+.dtc-box {
+    height: 430px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-section {
+    height: 85%;
+    width: 55%;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-box {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-text {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: #00d9f5;
+}
+
+.stauts-text {
+    margin: 0;
+    margin-top: 5px;
+    color: #0f172a;
+    font-weight: bold;
+}
+
+.right-section {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-pause-reset-box {
+    height: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.start-pause-box {
+    height: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timer-btns {
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.btn-align-text {
+    font-size: 20px;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+.reset-box {
+    height: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rs-text {
+    color: #1e293b;
+    font-weight: 500;
+}
+
+.add-minus-timeLimit-box {
+    height: 50px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time-box {
+    height: 50px;
+    width: 100px;
+    background: linear-gradient(to right, #9de4d2, #40b9cb);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #0f172a;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.am-btns {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+}
